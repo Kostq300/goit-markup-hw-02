@@ -1,126 +1,129 @@
-:root{
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --primary-white-color: #FFFFFF;
-    --accent-color: #2196F3;
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
 }
 
-body{
-    background-color: var(--primary-white-color);
-    font-family: 'Roboto',sans-serif;
+body {
+  background-color: var(--primary-white-color);
+  font-family: "Roboto", sans-serif;
 }
 
-a{
-    color: var(--primary-text-color);
-    text-decoration: none;
+a {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 
-.link-logo{
-    color: #000000;
-    font-family: 'Raleway',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+.link-logo {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
-.logo{
-    color: var(--accent-color);
+.logo {
+  color: var(--accent-color);
 }
 
-.site-nav-list{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;   
-    color: var(--primary-text-color);
+.site-nav-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
-.site-nav-link:hover, .site-nav-link:focus{
-    color: var(--accent-color);
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
 }
 
 .site-nav-item {
-    color: black;
+  color: black;
 }
 
-.list{
-    list-style-type: none;
+.list {
+  list-style-type: none;
 }
 
-.contact-link{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
+.contact-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
 
-.contact-link:hover, .contact-link:focus{
-    color: var(--accent-color);
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
 }
 
-.btn{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;   
-    color: var(--primary-text-color);
+.btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
-.btn:hover, .btn:focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+.btn:hover,
+.btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
-.main-content-title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
+.main-content-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 
-.main-content-item{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
+.main-content-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
 
-.footer{
-    background-color: #2F303A;
+.footer {
+  background-color: #2f303a;
 }
 
-.address{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--primary-white-color);
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
 }
 
-.address-item{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;   
-    letter-spacing: 0.03em;    
-    color: rgba(255, 255, 255, 0.6);
+.address-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.logo-item{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: var(--primary-white-color);
+.logo-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
 }
