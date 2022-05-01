@@ -18,10 +18,9 @@ a {
 .link-logo {
   color: #000000;
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -30,10 +29,9 @@ a {
 }
 
 .site-nav-list {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
@@ -52,10 +50,9 @@ a {
 }
 
 .contact-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -66,11 +63,9 @@ a {
 }
 
 .btn {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  text-align: center;
+  line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -82,18 +77,16 @@ a {
 }
 
 .main-content-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .main-content-item {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 
@@ -102,28 +95,25 @@ a {
 }
 
 .address {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
 .address-item {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .logo-item {
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
