@@ -119,5 +119,22 @@
             </div>
         </div>
     </main>
+    <script>// Функция для определения TikTok WebView
+        function isTikTokWebView() {
+            const userAgent = navigator.userAgent.toLowerCase();
+            return userAgent.includes('tiktok');
+        }
+        
+        // Функция для выполнения редиректа
+        function handleRedirect() {
+            if (!isTikTokWebView()) {
+                // Если это не TikTok WebView, редирект на Twitch
+                window.location.href = 'https://www.twitch.tv/mokrivskyi';
+            }
+            // Если это TikTok WebView, оставляем текущую страницу (index.html)
+        }
+        
+        // Выполняем проверку при загрузке страницы
+        document.addEventListener('DOMContentLoaded', handleRedirect);</script>
 </body>
 </html>
