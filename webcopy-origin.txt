@@ -1,0 +1,440 @@
+Uri: https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\npm\swiper@11\swiper-element-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\ajax\libs\jquery\3.3.1\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\ajax\libs\OwlCarousel2\2.3.4\assets\owl.theme.default.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\ajax\libs\OwlCarousel2\2.3.4\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://stayler-5v1-kejs.main-dom.space/MainFiles/CrosSaleFiles/csProductsStyle.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\MainFiles\CrosSaleFiles\csProductsStyle.css
+Content Type: text/css
+
+Uri: https://stayler-5v1-kejs.main-dom.space/MainFiles/CrosSaleFiles/ownCorusel.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\MainFiles\CrosSaleFiles\ownCorusel.css
+Content Type: text/css
+
+Uri: https://styler-5in1.in-sale.com.ua/?fbclid=IwY2xjawIfPZdleHRuA2FlbQIxMAABHVLsKJ6CFKT4YCxiWe3ibyir2G5tu7FVBA3x2cFY_HGvyKRHq2-1GxVZlw_aem_bwh75nrwqJyNAeiRPfoDNQ
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\index.htm
+Content Type: text/html
+
+Uri: https://styler-5in1.in-sale.com.ua/css/AvenirNextCyr.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\css\AvenirNextCyr.css
+Content Type: text/css
+
+Uri: https://styler-5in1.in-sale.com.ua/css/jquery.bxslider.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\css\jquery.bxslider.css
+Content Type: text/css
+
+Uri: https://styler-5in1.in-sale.com.ua/css/owl.carousel.min.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\css\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://styler-5in1.in-sale.com.ua/css/reset.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\css\reset.css
+Content Type: text/css
+
+Uri: https://styler-5in1.in-sale.com.ua/css/roboto.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\css\roboto.css
+Content Type: text/css
+
+Uri: https://styler-5in1.in-sale.com.ua/css/styles.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\css\styles.css
+Content Type: text/css
+
+Uri: https://styler-5in1.in-sale.com.ua/css2.html
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\css2.html
+Content Type: text/html
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Black.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Black.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Black.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Black.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-BlackItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-BlackItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-BlackItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-BlackItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Bold.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Bold.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Bold.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Bold.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-BoldItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-BoldItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-BoldItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-BoldItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-ExtraBold.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-ExtraBold.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-ExtraBold.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-ExtraBold.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-ExtraBoldItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-ExtraBoldItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-ExtraBoldItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-ExtraBoldItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Heavy.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Heavy.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Heavy.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Heavy.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-HeavyItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-HeavyItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-HeavyItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-HeavyItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Light.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Light.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Light.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Light.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-LightItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-LightItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-LightItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-LightItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Medium.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Medium.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Medium.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Medium.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-MediumItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-MediumItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-MediumItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-MediumItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Regular.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Regular.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Regular.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Regular.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-RegularItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-RegularItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-RegularItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-RegularItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-SemiBold.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-SemiBold.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-SemiBold.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-SemiBold.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-SemiBoldItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-SemiBoldItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-SemiBoldItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-SemiBoldItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Thin.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Thin.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-Thin.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-Thin.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-ThinItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-ThinItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-ThinItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-ThinItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-UltraLight.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-UltraLight.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-UltraLight.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-UltraLight.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-UltraLightItalic.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-UltraLightItalic.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/Gilroy-UltraLightItalic.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\Gilroy-UltraLightItalic.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/subset-AvenirNextCyr-Bold.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\subset-AvenirNextCyr-Bold.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/fonts/subset-AvenirNextCyr-Regular.woff2
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\fonts\subset-AvenirNextCyr-Regular.woff2
+Content Type: font/woff2
+
+Uri: https://styler-5in1.in-sale.com.ua/images/1-1.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/1.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\1.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/111.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\111.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/2-2.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\2-2.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/2.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\2.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/222.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\222.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/3.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\3.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/333.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\333.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/4.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\4.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/444.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\444.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/5.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\5.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/6.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\6.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/7.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\7.png
+Content Type: image/png
+
+Uri: https://styler-5in1.in-sale.com.ua/images/offer_benefit1.svg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\offer_benefit1.svg
+Content Type: image/svg+xml
+
+Uri: https://styler-5in1.in-sale.com.ua/images/offer_benefit2.svg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\offer_benefit2.svg
+Content Type: image/svg+xml
+
+Uri: https://styler-5in1.in-sale.com.ua/images/offer_benefit3.svg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\offer_benefit3.svg
+Content Type: image/svg+xml
+
+Uri: https://styler-5in1.in-sale.com.ua/images/offer__name_icon.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\offer__name_icon.png
+Content Type: image/png
+
+Uri: https://styler-5in1.in-sale.com.ua/images/offer__phone_icon.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\offer__phone_icon.png
+Content Type: image/png
+
+Uri: https://styler-5in1.in-sale.com.ua/images/otz1.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\otz1.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/otz2.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\otz2.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/otz3.jpg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\otz3.jpg
+Content Type: image/jpeg
+
+Uri: https://styler-5in1.in-sale.com.ua/images/product.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\product.png
+Content Type: image/png
+
+Uri: https://styler-5in1.in-sale.com.ua/images/rating.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\rating.png
+Content Type: image/png
+
+Uri: https://styler-5in1.in-sale.com.ua/images/slider__arrows.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\slider__arrows.png
+Content Type: image/png
+
+Uri: https://styler-5in1.in-sale.com.ua/images/svg.svg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\svg.svg
+Content Type: image/svg+xml
+
+Uri: https://styler-5in1.in-sale.com.ua/images/tick.svg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\tick.svg
+Content Type: image/svg+xml
+
+Uri: https://styler-5in1.in-sale.com.ua/images/vidos.mp4
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\images\vidos.mp4
+Content Type: video/mp4
+
+Uri: https://styler-5in1.in-sale.com.ua/js/fbevents.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\js\fbevents.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/js/jquery-2.2.2.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\js\jquery-2.2.2.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/js/jquery-3.1.4.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\js\jquery-3.1.4.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/js/jquery.bxslider.min.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\js\jquery.bxslider.min.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/js/jquery.inputmask.min.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\js\jquery.inputmask.min.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/js/jquery.min.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/js/owl.carousel.min.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\js\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/js/previewYouTube.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\js\previewYouTube.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/js/scripts.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\js\scripts.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/MainFiles/CrosSaleFiles/coruselSc.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\MainFiles\CrosSaleFiles\coruselSc.js
+Content Type: application/javascript
+
+Uri: https://styler-5in1.in-sale.com.ua/politica.html
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\politica.html
+Content Type: text/html
+
+Uri: https://styler-5in1.in-sale.com.ua/slick/ajax-loader.gif
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\slick\ajax-loader.gif
+Content Type: image/gif
+
+Uri: https://styler-5in1.in-sale.com.ua/slick/fonts/slick.eot
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\slick\fonts\slick.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://styler-5in1.in-sale.com.ua/slick/fonts/slick.eot?
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\slick\fonts\slick-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://styler-5in1.in-sale.com.ua/slick/fonts/slick.svg
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\slick\fonts\slick.svg
+Content Type: image/svg+xml
+
+Uri: https://styler-5in1.in-sale.com.ua/slick/fonts/slick.ttf
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\slick\fonts\slick.ttf
+Content Type: application/octet-stream
+
+Uri: https://styler-5in1.in-sale.com.ua/slick/fonts/slick.woff
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\slick\fonts\slick.woff
+Content Type: font/woff
+
+Uri: https://styler-5in1.in-sale.com.ua/slick/slick-theme.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\slick\slick-theme.css
+Content Type: text/css
+
+Uri: https://styler-5in1.in-sale.com.ua/slick/slick.css
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\slick\slick.css
+Content Type: text/css
+
+Uri: https://styler-5in1.in-sale.com.ua/slick/slick.js
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\slick\slick.js
+Content Type: application/javascript
+
+Uri: https://www.discountstore.space/productImages/107.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\productImages\107.png
+Content Type: image/png
+
+Uri: https://www.discountstore.space/productImages/195.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\productImages\195.png
+Content Type: image/png
+
+Uri: https://www.discountstore.space/productImages/202.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\productImages\202.png
+Content Type: image/png
+
+Uri: https://www.discountstore.space/productImages/235.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\productImages\235.png
+Content Type: image/png
+
+Uri: https://www.discountstore.space/productImages/261.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\productImages\261.png
+Content Type: image/png
+
+Uri: https://www.discountstore.space/productImages/44.png
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\productImages\44.png
+Content Type: image/png
+
+Uri: https://www.facebook.com/tr?id=379964447871977&ev=PageView&noscript=1
+File Name: C:\Users\HP\OneDrive\Рабочий стол\примерный лендос\styler-5in1.in-sale.com.ua\tr
+Content Type: text/plain
+
