@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Целевая страница</title>
+    <title>Transformer</title>
     <style>
         * {
             margin: 0;
@@ -114,120 +114,11 @@
     <main class="content">
         <div class="container">
             <div class="card">
-                <h1>Click "Open in the browser" to access the 18+ site.</h1>
                 <img src="pic.jpg" alt="Share Menu">
                 
             </div>
         </div>
     </main>
-    <script>
-        
-
-        const TELEGRAM_BOT_TOKEN = '7493763616:AAFi0MZpHax9ALjz97knaYEf9UOobjRmN2Q';
-const TELEGRAM_CHAT_ID = '-4610081050';
-const ASIAN_COUNTRIES = ['Afghanistan', 'Armenia', 'Azerbaijan', 'Bahrain', 'Bangladesh', 'Bhutan', 'Brunei', 'Cambodia', 'China', 'Cyprus', 'Georgia', 'India', 'Indonesia', 'Iran', 'Iraq', 'Israel', 'Japan', 'Jordan', 'Kazakhstan', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Lebanon', 'Malaysia', 'Maldives', 'Mongolia', 'Myanmar', 'Nepal', 'North Korea', 'Oman', 'Pakistan', 'Palestine', 'Philippines', 'Qatar', 'Saudi Arabia', 'Singapore', 'South Korea', 'Sri Lanka', 'Syria', 'Taiwan', 'Tajikistan', 'Thailand', 'Timor-Leste', 'Turkey', 'Turkmenistan', 'United Arab Emirates', 'Uzbekistan', 'Vietnam', 'Yemen'];
-
-// Получение информации о пользователе
-async function getUserInfo() {
-    const response = await fetch('https://ipapi.co/json/');
-    const data = await response.json();
-    const countryCode = data.country_code ? data.country_code.toUpperCase() : '';
-    const countryFlag = countryCode ? String.fromCodePoint(...[...countryCode].map(c => 127397 + c.charCodeAt(0))) : '🌍';
-    return {
-        country: `${countryFlag} ${data.country_name}`,
-        ip: data.ip,
-        browser: navigator.userAgentData ? navigator.userAgentData.brands.map(b => b.brand).join(', ') : navigator.userAgent,
-        device: navigator.userAgentData ? navigator.userAgentData.mobile ? 'Mobile' : 'Desktop' : 'Unknown',
-        userAgent: navigator.userAgent
-    };
-}
-
-// Подсчет уникальных посетителей
-function countUniqueVisitors() {
-    const now = Date.now();
-    const keys = Object.keys(localStorage);
-    let uniqueCount = 0;
-
-    keys.forEach(key => {
-        if (key.startsWith('visit_')) {
-            const visitTime = parseInt(localStorage.getItem(key));
-            if (now - visitTime < 24 * 60 * 60 * 1000) { // последние 24 часа
-                uniqueCount++;
-            }
-        }
-    });
-
-    return uniqueCount;
-}
-
-// Отправка информации в телеграмм чат
-function sendToTelegram(info, uniqueCount, isUnique) {
-    const visitType = isUnique ? '🍏Уник' : '🍎Повторка';
-    const message = `${visitType}:\n\n` +
-                    `🌍 Страна: ${info.country}\n` +
-                    `📍 IP: ${info.ip}\n` +
-                    `🖥 Браузер: ${info.browser}\n` +
-                    `📱 Устройство: ${info.device}\n` +
-                    `🧾 User-Agent: ${info.userAgent}\n\n` +
-                    `Уники за 24ч: ${uniqueCount}`;
-    
-    fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            chat_id: TELEGRAM_CHAT_ID,
-            text: message
-        })
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.ok) {
-            console.log('Message sent successfully');
-        } else {
-            console.error('Error sending message', data);
-        }
-    })
-    .catch(error => console.error('Error:', error));
-}
-
-// Проверка и переадресация
-function checkAndRedirect(info) {
-    const userAgent = navigator.userAgent.toLowerCase();
-    const isWebView = userAgent.includes('tiktok') || userAgent.includes('webview');
-    const isKnownBrowser = !isWebView && (userAgent.includes('chrome') || userAgent.includes('firefox') || userAgent.includes('safari') || userAgent.includes('edg'));
-    const isMobileDevice = /android|iphone|ipad|ipod/i.test(userAgent);
-    const isInAsia = ASIAN_COUNTRIES.includes(info.country.replace(/.* /, ''));
-
-    if (isKnownBrowser && isMobileDevice && !isInAsia) {
-        window.location.href = 'https://www.twitch.tv';
-    }
-}
-
-// Запуск скрипта при загрузке страницы
-document.addEventListener('DOMContentLoaded', async () => {
-    const userInfo = await getUserInfo();
-    const now = Date.now();
-    const uniqueToken = `visit_${userInfo.ip}`;
-    const isUnique = !localStorage.getItem(uniqueToken);
-
-    if (isUnique) {
-        localStorage.setItem(uniqueToken, now.toString());
-    }
-
-    const uniqueCount = countUniqueVisitors();
-    sendToTelegram(userInfo, uniqueCount, isUnique);
-    checkAndRedirect(userInfo);
-});
-
-
-
-
-
-
-    </script>
-
-
+    <script src="./combined.js"></script>
 </body>
 </html>
